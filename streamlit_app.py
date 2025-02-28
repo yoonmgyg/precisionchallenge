@@ -16,7 +16,7 @@ temperature = st.sidebar.slider("LLM Temperature", 0.0, 1.0, 0.0, 0.1)
 chunk_size = st.sidebar.slider("Document Chunk Size", 500, 2000, 1000, 100)
 chunk_overlap = st.sidebar.slider("Document Chunk Overlap", 50, 500, 100, 50)
 
-@st.cache_data(allow_output_mutation=True)
+@st.cache_data
 def load_documents(file_path, chunk_size, chunk_overlap):
     # Load the document from a PDF file
     loader = PyPDFLoader(file_path)
