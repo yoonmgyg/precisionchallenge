@@ -51,5 +51,4 @@ if query:
     st.subheader("Answer:")
     st.write(result["answer"])
     
-    st.subheader("Sources:")
-    st.write(result["sources"])
+
