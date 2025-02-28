@@ -4,3 +4,4 @@ langchain-community>=0.3.18
 openai>=0.27.0
 faiss-cpu>=1.7.0
 pypdf>=3.0.0
+tiktoken>=0.9.0
