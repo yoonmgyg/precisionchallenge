@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQAWithSourcesChain
 
 
 st.title("FDA Cosmetic Guidance Q&A Chatbot")
-st.write("Ask questions about FDA cosmetic regulations and receive responses with citations.")
+st.write("Ask questions about FDA cosmetic regulations.")
 
 
 st.sidebar.header("Settings")
